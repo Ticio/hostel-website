@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+section{
+    height: 430px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h2{
+    text-align: center;
+}
+
+#section1
+{
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.8)),url('../images/hostel/garden.jpg');
+    background-position: center center;
+    background-size: cover;
+    font-size: 0.9em;
+}
+
+span{
+    font-weight: 800;
+}
+
+#section1 .row
+{
+    position: relative;
+    width: 100%;
+
+    box-sizing: border-box;
+    margin: auto;
+    color: #fff; 
+    padding: 60px 20px;
+    /* background: white; */
+}
+
+#section1 .row ul{
+    list-style-type: none;
+}
+
+#section1 .row div h2{
+    margin-bottom: 15px;
+} 
+
+#section1 .row div p, #section1 .row div li{
+    margin-bottom: 10px;
+}
+
+#section1 .row div
+{
+    margin: auto 0;
+    /* background: red; */
+    padding: 15px;
+}
+
+#accomodation
+{
+    width: 50%;
+    float: left;
+}
+
+#facilities
+{
+    width: 40%;
+    float: right;
+    background: rgba(0,0,0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    border-radius: 5%;
+}
+
+#facilities ul
+{
+    /* background: red; */
+    margin: 10px;
+}
+
+#section2 .row{
+    /* background: green; */
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+#section2 figure
+{
+    position: relative;
+    width: 32%;
+    height: 225px;
+    margin: 3px;
+    float: left;
+    border: 1px solid white;
+    box-shadow: 1px 1px 2px rgba(0,0,0, 0.2);
+}
+
+#section2 figure figcaption
+{
+    background:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 44%;
+    width: 75%;
+    height: 85px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 6px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#section2 figure img
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling for the section 3 */
+/* Starting the styling for: Check in/out table, important information, Cancellation policy */
+
+/*Defining the section 3 styling*/
+#section3{
+    /* background: red; */
+    height: 440px;
+    box-sizing: border-box;
+    /* padding: 3px; */
+}
+
+#section3 .row{
+    /* border: 1px solid orange; */
+    width: 100%;
+    height: 95%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#section3 .left
+{
+    float: left;
+    width: 57.8%;
+    height: 97%;
+    /* border: 1px solid green; */
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 10px 4px;
+}
+
+#section3 .right
+{
+    text-align: center;
+    /* border: 1px solid green; */
+    height: 91%;
+    width: 40%;
+    float: right;
+    padding: 10px 4px;
+}
+
+#section3 h3, #section3 .right p
+{
+    margin: 10px;
+}
+
+#section3 .right table
+{
+    margin: 0 auto 19px auto;
+    width: 90%;
+	box-shadow: 2px 2px 5px rgba(0, 0,0, 0.4);
+}
+#section3 .right table , #section3 .right table th, #section3 .right table td{
+    border: 1px solid rgba(0, 0,0, 0.4);
+	border-collapse: collapse;
+}
+
+#section3 .right table caption
+{
+	padding: 10px;
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.8)),url('../images/hostel/garden.jpg');
+    color: #fff;
+    font-weight: 700;
+}
+
+#section3 .right table th{
+    padding: 4px;
+}
+
+#section3 .left li
+{
+    margin: 3px 25px;
+    font-size: 0.9455em;
+}
+
+/* /*Styling each div containing information in the section 3 */

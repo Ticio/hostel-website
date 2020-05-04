@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+/* default styles for document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 90%;
+	max-width: 1024px;
+	margin: 2em auto;
+	background: #eee; 							/* try changing the backgroung color */
+	font-family: Verdana, Geneva, sans-serif;   /* try changing the font */
+	font-size: 0.8em;
+}
+
+/* the following code allows images to scale wth the browser window */
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* use this section change the default style for tags */
+h1 {
+	font-size: 1.4em;
+	color:#030;
+}
+
+
+/* header area - add more styles */
+header {
+	width: 100%;
+}
+/* main content area - add more styles */
+main {
+	float: left;
+	display: inline-block;
+	width: 70%;
+	height: 500px;
+}
+.col-1 {
+	margin: 0 0 20px;
+	padding: 1em;
+	float: left;
+	display: inline-block;
+	width: 40%;
+	height: 500px;
+}
+
+.col-2 {
+	width: 100%;
+	height: 500px;
+	margin: 0 0 20px;
+	padding: 1em;
+}
+/* sidebar - add more styles */
+aside {
+	float: right;
+	display: inline-block;
+	width: 25%;
+}
+
+/*add table styles */
+
+/*navigation styles restyle the basic bulleted list - add more styles*/
+nav {
+	min-width: 400px;	
+}
+nav li {
+	display: inline-block;
+	padding: 1%;
+}
+nav li a {
+	text-decoration: none;
+	color:#666;
+}
